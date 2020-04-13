@@ -449,6 +449,17 @@ body {
     .social-links {
         order: 2;        
     }
+    .food-name {
+        line-height: 22px;
+        width: 30%;
+    }
+    .food-price {
+        margin-left: auto;
+    }
+    .modal-pricetag {
+        padding: 10px 14.5px;
+        font-size: 18px;
+    }
 }
 @media (max-width:480px) {
     .button-text {
@@ -480,6 +491,35 @@ body {
     }
     .section-heading {
         flex-wrap: wrap;
+    }
+    .food-name {
+        line-height: 22px;
+        font-size: 16px;      
+        
+    }
+    .food-price {
+        margin-right: auto;
+    }
+    .modal-pricetag {
+        padding: 12.5px 10px;
+        width: 30%;
+        margin-right: 5px;
+        font-size: 14px;       
+    }
+    .button-primary {
+        line-height: 15px;
+    }
+    .modal-body {
+        margin-bottom: 20px;
+    }
+       
+    .modal-dialog {
+        overflow: scroll;
+        padding: 30px 35px;
+    }
+    .modal-title {
+        font-size: 25px;
+        line-height: 32px;
     }
 }
 
